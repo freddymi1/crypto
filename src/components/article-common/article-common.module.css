@@ -1,0 +1,90 @@
+[data-theme='dark'] .btn_comment {
+  border: 2px solid #fff;
+}
+
+[data-theme='dark'] .btn_comment:hover {
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.btn_comment {
+  background: #ffffff09;
+  border-radius: 50px;
+  align-items: center;
+  border: 2px solid #111b1e;
+  transition: all 0.2s ease;
+}
+
+.btn_comment:hover {
+  background: #111b1e;
+}
+
+.comment {
+  color: #e26400;
+  padding-right: 5px;
+}
+
+.nbr_comment {
+  color: #e26400;
+}
+
+[data-theme='dark'] .timer {
+  color: #e26400 !important;
+}
+
+.timer {
+  color: #111b1e;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+[data-theme='dark'] .profile {
+  color: #fff !important;
+}
+
+.profile {
+  color: #111b1e;
+  font-weight: 600;
+}
+
+.btn_vote {
+  background: #ffffff;
+  border-radius: 50px;
+  align-items: center;
+  border: 2px solid #fff;
+  min-width: 50px;
+}
+
+.btnMinus {
+  color: #e26400;
+}
+
+.nbr_vote {
+  color: #e26400;
+  font-size: 1.2rem;
+}
+
+.btnPlus {
+  color: #e26400;
+}
+
+.iconFuse {
+  min-width: 20px;
+}
+
+[data-theme='dark'] .popover {
+  background: #111b1e;
+  color: #fff;
+}
+
+.popover {
+  background: #fff;
+  color: #111b1e;
+}
+.link {
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  color: #e26400;
+}

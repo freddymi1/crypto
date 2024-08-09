@@ -1,0 +1,45 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:eslint-plugin-import/errors",
+    "plugin:eslint-plugin-import/warnings",
+    "plugin:import/typescript"
+    //"plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "eslint-plugin-check-file",
+    "eslint-plugin-import",
+    "eslint-plugin-filenames"
+    //"@typescript-eslint"
+  ],
+  "rules": {
+    "react/no-unescaped-entities": 0,
+    "check-file/folder-naming-convention": [
+      "warn",
+      {
+        "src/**/": "NEXT_JS_APP_ROUTER_CASE"
+      }
+    ],
+    "check-file/filename-naming-convention": [
+      "warn",
+      {
+        "public/**/": "KEBAB_CASE",
+        "src/**/": "KEBAB_CASE"
+      }
+    ],
+    "import/first": "warn",
+    "import/newline-after-import": "warn",
+    "filenames/match-exported": ["warn", "kebab"]
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "frontend/tsconfig.json"
+      }
+    }
+  }
+}

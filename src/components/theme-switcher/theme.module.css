@@ -1,0 +1,23 @@
+[data-theme='dark'] .moon_icon {
+  background: rgba(255, 255, 255, 0.103);
+  color: #fff;
+}
+
+.moon_icon {
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #111b1e;
+  cursor: pointer;
+  background: rgb(17 27 30 / 10%);
+}
+
+.theme_shweetcher {
+  border-bottom: 2px solid #111b1e10;
+}
+
+.mode {
+  color: #111b1e;
+}

@@ -1,0 +1,28 @@
+.title {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+[data-theme='dark'] .btn_comment {
+  color: #fff;
+}
+
+.btn_comment {
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  color: #111b1eb2;
+  padding: 5px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.btn_comment:hover {
+  background: #111b1e4f;
+  cursor: pointer;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}

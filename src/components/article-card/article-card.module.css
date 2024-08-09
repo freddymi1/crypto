@@ -1,0 +1,158 @@
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 1200px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 100%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.btn_vote {
+  background: #ffffff;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  min-width: 50px;
+}
+
+.link_deal {
+  background: #e26400;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.link_deal:hover {
+  background: #b45405;
+}
+
+.txt_link {
+  color: #fff;
+}
+
+.title_article {
+  font-weight: 600;
+  color: #e26400;
+  font-size: 1.6rem;
+  font-family: 'Horta';
+  transition: all 0.2s ease;
+}
+
+.title_article:hover {
+  color: #c55c06;
+}
+
+.title_articleMobile {
+  color: #e26400;
+  font-family: 'Horta';
+  transition: all 0.2s ease;
+}
+
+[data-theme='dark'] ._more {
+  background: #ffffff0c;
+}
+
+._more {
+  right: 1.5rem;
+  cursor: pointer;
+  top: 1rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #111b1e13;
+  border-radius: 50%;
+}
+
+.title_articleMobile:hover {
+  color: #c55c06;
+}
+
+[data-theme='dark'] .article_description {
+  color: #fff !important;
+}
+
+.article_description {
+  color: #111b1e;
+}
+
+[data-theme='dark'] .profile {
+  color: #fff !important;
+}
+
+.profile {
+  color: #111b1e;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .btn_comment {
+  border: 2px solid #fff;
+}
+
+[data-theme='dark'] .btn_comment:hover {
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.btn_comment {
+  background: #ffffff09;
+  border-radius: 50px;
+  align-items: center;
+  border: 2px solid #111b1e;
+  transition: all 0.2s ease;
+}
+
+.btn_comment:hover {
+  background: #111b1e;
+}
+
+.comment {
+  color: #e26400;
+  padding-right: 5px;
+}
+
+.nbr_comment {
+  color: #e26400;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

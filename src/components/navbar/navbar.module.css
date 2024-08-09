@@ -1,0 +1,278 @@
+[data-theme='dark'] .title_logo {
+  color: #fff !important;
+}
+
+[data-theme='dark'] .btn_icon {
+  color: #fff !important;
+  background: #ffffff15;
+}
+
+[data-theme='dark'] .nav_bottom {
+  background: #111b1e;
+  border-top: 2px solid #ffffff10;
+}
+
+.nav_bottom {
+  background: #ffffff;
+  border-top: 2px solid #111b1e10;
+}
+
+[data-theme='dark'] .navbar_bottom_items {
+  color: #ffffffd5;
+}
+
+.navbar_bottom_items {
+  color: #111b1ea4;
+}
+
+.title_logo {
+  color: #111b1e;
+}
+
+[data-theme='dark'] .menu {
+  color: #fff;
+}
+
+.menu {
+  color: #111b1e;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.menu:hover {
+  color: #e26400;
+  font-weight: 600;
+}
+
+.menu-items {
+  background: rgb(17 27 30 / 5%);
+}
+
+[data-theme='dark'] .menu_btn {
+  color: #ffffff;
+  background: #ffffff10 !important;
+}
+
+[data-theme='dark'] .menu_btn:hover {
+  color: #ffffff;
+  background: #ffffff15 !important;
+}
+
+.menu_btn {
+  background: #111b1e07 !important;
+  color: #111b1e;
+  transition: all 0.3s ease;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  font-family: Horta, sans-serif;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+.menu_btn:hover {
+  background: #111b1e15 !important;
+  /* color: #412AB2; */
+}
+
+.btn_search {
+  width: 52px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(17 27 30 / 5%);
+}
+
+.btn_icon {
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  color: #111b1e;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background: rgb(17 27 30 / 5%);
+}
+
+[data-theme='dark'] .menu_bar {
+  color: #fff;
+}
+
+.menu_bar {
+  color: #111b1e;
+}
+
+.profile_section_item {
+  background: #e26400;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+[data-theme='dark'] .menu_Style {
+  color: #111b1e;
+  border-bottom: 2px solid #111b1e10;
+}
+
+.menu_Style {
+  color: #fff;
+  justify-content: start;
+  align-content: center;
+  border-bottom: 2px solid #ffffff10;
+}
+
+[data-theme='dark'] .profil_popup_footer {
+  background: #ffffff;
+}
+
+.profil_popup_footer {
+  background: #111b1e;
+  color: #e26400;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+[data-theme='dark'] .notif_footer {
+  background: #ffffff;
+}
+
+.notif_footer {
+  background: #111b1e;
+  text-align: right;
+  justify-content: startend;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+[data-theme='dark'] .menu_notif {
+  background: #ffffff;
+  color: #111b1e;
+}
+
+.menu_notif {
+  background: #111b1e;
+  color: #fff;
+  z-index: 99999;
+}
+
+.notif_content {
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #ffffff10;
+}
+
+.filter_btn {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #ffffff2d;
+  background: #ffffff10;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.btn_add {
+  width: 45px;
+  height: 45px;
+  background: #e26400;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.btn_icon_con {
+  width: 45px;
+  height: 45px;
+  color: #fff !important;
+  background: #e26400;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.notif_title {
+  background: #e26400;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+[data-theme='dark'] .menu {
+  color: #fff;
+}
+
+.menu {
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.menu:hover {
+  color: #e26400;
+  font-weight: 600;
+}
+
+.active {
+  color: #e26400 !important;
+  position: relative;
+}
+
+[data-theme='dark'] .mobile_menu {
+  background: #fff;
+}
+
+.mobile_menu {
+  z-index: 99999;
+  background: #111b1e;
+}
+
+[data-theme='dark'] .menu_style1 {
+  color: #111b1e;
+  border-bottom: 2px solid #111b1e10;
+}
+
+.menu_style1 {
+  color: #111b1e;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+  border-bottom: 2px solid #111b1e10;
+}
+
+.logo_menu {
+  border-bottom: 2px solid #111b1e10;
+  color: #111b1e;
+}
+
+.loading {
+  background: #111b1e2d;
+  height: 2rem;
+}
+
+[data-theme='dark'] .menu {
+  color: #fff;
+}
+
+.menu {
+  color: #111b1e;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.menu:hover {
+  color: #e26400;
+  font-weight: 600;
+}

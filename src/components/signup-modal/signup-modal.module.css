@@ -1,0 +1,53 @@
+[data-theme='dark'] .modal_styles {
+  background: #111b1e;
+}
+
+.modal_styles {
+  background: #fff;
+}
+
+[data-theme='dark'] .disabled {
+  background: #ffffff07;
+  color: #fff;
+}
+
+.disabled {
+  background: #111b1e1e;
+  border-radius: 50px;
+  padding: 10px 5px;
+  width: 100%;
+  color: #111b1e;
+  transition: all 0.3s ease;
+}
+
+.btn_sigup {
+  background: #e26400;
+  border-radius: 50px;
+  padding: 10px 5px;
+  width: 100%;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .create_compte_btn {
+  background: #ffffff07;
+  color: #fff;
+}
+
+.create_compte_btn {
+  padding: 10px 5px;
+  width: 100%;
+  background: #111b1e1e;
+  color: #111b1e;
+  border-radius: 50px;
+}
+
+.bg {
+  background: #111b1e05;
+}
+
+.linkL {
+  text-align: center;
+  color: #e26400;
+  font-weight: 600;
+}

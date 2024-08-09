@@ -1,0 +1,36 @@
+[data-theme='dark'] .title,
+.bulls_title {
+  color: #fff;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #111b1e;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+}
+
+.bull_content {
+  margin-left: 1rem;
+}
+
+[data-theme='dark'] .bulls_title {
+  color: #fff;
+}
+
+.bulls_title {
+  color: #111b1e;
+  font-weight: 600;
+  font-family: Horta, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.bull_tarif {
+  font-weight: 600;
+  color: #e26400;
+}
